@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    WHat is Form:
+
+
+    use cases:
+    -login form
+    -exam registration form
+    -payment form
+    -job application form
+    -feedback from
+
+
+    why:
+    - collect dara from user
+    - to store use data
+    -dynaamic appliactaion
+
+    <form>
+        >input>
+    </form>
+    
+    -->
+
+    <form action="#" method="post">
+
+        <!-- <label for="name">Name:</label> -->
+        <input type="hidden" id="name" placeholder="Enter Your Name" name="name" minlength="3" maxlength="10" autofocus autocomplete="off" readonly ><br><br>
+        <!-- <label for="">Password:</label> -->
+        <input type="password" name="password" placeholder="Enter Password" required value="12345" ><br><br>
+        <input type="email" placeholder="Email" name="Email" autocomplete="off">
+        <input type="tel" pattern="[0-9]{10}">
+        <input type="url" placeholder="URL" name="URL">
+        <input type="search">
+        <input type="number" name="Age" min="1" max="100">
+        <input type="date" name="DOB" id="" min="2025-01-01" max="2027-11-01" title="selectDate of Birth">
+        <input type="month" name="" id="">
+        <input type="time">
+        <input type="datetime-local">
+        <input type="week">
+
+
+        <input type="radio" name="gender" value="male" id="male" checked>
+        <label for="male">male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">female</label>
+
+
+        <input type="checkbox" name="skills" value="html" checked>
+        <label for="HTML">HTML</label>
+
+        
+        <input type="checkbox" name="skills" value="css">
+        <label for="HTML">CSS</label>
+        <input type="checkbox" name="skills" value="js">
+        <label for="HTML">JS</label>
+        <input type="checkbox" name="skills" value="react">
+        <label for="HTML">REact</label>
+
+        <select name="course" id="" multiple>
+            <option value="">---Select---</option>
+            <option value="java">JAVA</option>
+            <option value="py">Python</option>
+            <option value="c">C</option>
+            <option value="mern">MERN</option>
+
+        </select>
+
+        <input type="file" accept=".pdf" multiple>
+
+        <input type="color" value="#0000">
+        <input type="range">
+        <textarea name="" id="" rows="5"></textarea>
+
+        <button>Submit.....</button>
+        <input type="submit">
+        <input type="button" value="button">
+        <input type="reset">
+
+
+
+
+
+    </form>
+</body>
+</html>
