@@ -1,0 +1,119 @@
+/*
+what is CSS::afterCAA is used to apply styles for HTML welement and make application as beutiful application
+
+why we need CSS:
+1. improve the UI Design
+2. reusability
+3. easy maintance
+4. responsive Design
+
+typ[es of CSS:
+1. inline CSS
+2. Internal CSS
+3. external CSS
+
+1. inline CSS:
+css is written directly inside the HTMl tag by using style attribute
+
+syntax:
+<tag style="property:value"></tag>
+
+advantages:
+1. easy for single element
+2. quick testing
+3. no seperate CSS file is needed
+
+dis advantages:
+1. repeated code
+2. length of the code is hoing to increase
+3. difficulty to maintain the code
+4. not suitable for large projects
+5. mixes the HTML and CSS
+
+2. internal CSS:
+css is written inside the style tag
+
+stntax:
+<head>
+<style>
+
+</style>
+</head>
+
+
+advantages:
+1. CSS and HTML we vvan make seperatly
+2. btter than inline css
+3. suitable for small webpages
+
+dis-advantages:
+1. cannot reuse in other pages
+2. code becomes large
+3. not suitable for large projects
+
+
+3. external CSS:
+css is written in seperate file
+
+index.html
+style.css
+
+advantages:
+1. reusable
+2. easy maintance
+3. faster development
+4. best for large projects
+
+dis-advantages:
+1. requires seperate file
+2. extra HTTP request
+
+
+
+what is Selector:
+a selector is used to target HTML element and apply styles
+
+types od sllectors:
+1. tag swelector(tagname)
+2. global selector(*)
+    selects all element in HTML file
+*/
+
+ a{
+            color: white; 
+            font-size:16px;
+            font-weight: 900; 
+            text-decoration: none;
+        }
+        header{
+            display: flex;  
+            align-items: center;
+            justify-content: space-between; 
+            padding-left: 30px; 
+            padding-right: 30px;
+        }
+        nav{
+            display: flex; 
+            gap: 30px; 
+            align-items: center;
+        }
+        h1{
+            color: yellow;
+        }
+        button{
+            background-color: yellow;
+            border:none;
+            padding: 10px; 
+            border-radius: 10px;
+        }
+        body{
+            width: 80%; 
+            margin:auto;
+            background-color: black;
+        }
+
+        *{
+            text-decoration: underline;
+            font-family: 'Courier New', Courier, monospace;
+            margin:0px;
+        }
